@@ -6,12 +6,13 @@ like the coverflow used in iTunes.
 
 The following features for raptus.article are provided by this package:
 
-    * Components:
-        * Coverflow (showing the contained articles like in iTunes)
-        * Coverflow teaser (showing the contained articles and is displayed above the columns like in iTunes)
+Components
+----------
+    * Content flow (showing the contained articles like in iTunes)
+    * Content flow teaser (showing the contained articles like in iTunes and is displayed above the columns)
 
-Dependencies:
-
+Dependencies
+------------
     * raptus.contentflow
     * raptus.article.teaser
     * raptus.article.nesting
@@ -60,7 +61,5 @@ in the article in which this component is active.
 Copyright and credits
 =====================
 
-raptus.article is copyrighted by raptus_, and licensed under the GPL. 
+raptus.article is copyrighted by `Raptus AG <http://raptus.com>`_ and licensed under the GPL. 
 See LICENSE.txt for details.
-
-.. _raptus: http://raptus.com/ 
