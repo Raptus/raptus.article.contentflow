@@ -6,7 +6,7 @@ version = '2.0b4'
 setup(name='raptus.article.contentflow',
       version=version,
       description="Provides a content flow component",
-      long_description=open("README.txt").read() + "\n" +
+      long_description=open("README.rst").read() + "\n" +
                        open(os.path.join("docs", "MANUAL.txt")).read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from http://www.python.org/pypi?%3Aaction=list_classifiers
@@ -17,7 +17,7 @@ setup(name='raptus.article.contentflow',
       keywords='',
       author='Raptus AG',
       author_email='dev@raptus.com',
-      url='https://svn.plone.org/svn/collective/raptus.article/raptus.article.contentflow',
+      url='https://github.com/Raptus/raptus.article.contentflow',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['raptus', 'raptus.article'],
